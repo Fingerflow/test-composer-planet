@@ -1,5 +1,11 @@
 {
 	"name": "acme/hello-planet",
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:Fingerflow/test-composer.git"
+        }
+    ],
     "require": {
         "acme/hello-world": "1.0.6"
     },
